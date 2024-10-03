@@ -1,0 +1,7 @@
+calificacion = int(input("Ingrese calificación: "))
+if (calificacion > 10):
+    print("calificación inválida")
+elif (calificacion < 7):
+    print("Reprobó")
+elif (calificacion >= 7):
+    print("Aprobó")
